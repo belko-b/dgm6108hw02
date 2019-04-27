@@ -33,26 +33,89 @@ function analyze() {
     
     /* NOTE: For my example code, I am not explictly coercing the value of form item "b" from a String to a Number. This is because two of my example values are actually Strings, and I want you to see the effect! You actually CAN compare Strings using greater-than and less-than, but they probably won't do what you expect. This week, try to research what actually happens when you compare strings! */
     
-    let b = document.getElementById("b").value;
+    /*let b = document.getElementById("b").value;
     
     output("First form value: " + a);
-    output("Second form value: " + b);
+    output("Second form value: " + b); */
     
-    if (spicyFood == 1) {
+    
+   /* if (spicyFood == 1) {
         output("You are a hot pepper plant.");
     }
     
     if (spicyFood == 2) {
-        if (favoriteSeason == 1);
+        if (favoriteSeason == 1)
             if (age == 1)
-                output("You are wisteria.")
+                output("You are wisteria.");
     }
     
-    if (a==b) {
-        output("The two form values were the same");
+    if (spicyFood == 2) {
+        if (favoriteSeason == 1)
+            if (age == 2)
+                output ("You are snow peas.");
     }
     
+    if (spicyFood == 2) {
+        if (favoriteSeason == 2)
+            if (fruitOrVeg == 1)
+                output ("You are a peach tree.");
+    }
+    
+    if (spicyFood == 2) {
+        if (favoriteSeason == 2)
+            if (fruitOrVeg == 2)
+                if (pullWeeds == 1)
+                    output ("You are a dandelion.");
+    }
+    
+    if (spicyFood == 2){
+        if (favoriteSeason == 2)
+            if (fruitOrVeg == 2)
+                if (pullWeeds == 2)
+                    output ("You are sweet corn.");
+            
+    }
+    
+    if (spicyFood == 2){
+        if (favoriteSeason == 3)
+            output ("You are multi-colored mums.");
+    }
+    
+    if (spicyFood == 2) {
+        if (favoriteSeason == 4)
+            output ("You are a pine tree.");
+    } */
+    
+    if (spicyFood == 1) {
+        output("You are a hot pepper plant.");
+    } else if (spicyFood == 2) {
+        if (favoriteSeason == 1)
+            if (age == 1)
+                output ("You are wisteria");
+    } else if (spicyFood == 2) {
+        if (favoriteSeason == 2)
+            if (fruitOrVeg == 1)
+                output("You are a peach tree.");
+    } else if (spicyFood == 2) {
+        if (favoriteSeason == 2)
+            if (fruitOrVeg == 2)
+                if (pullWeeds == 1)
+                    output ("You are a dandelion.");
+    } else if (spicyFood == 2) {
+        if (favoriteSeason == 2)
+            if (fruitOrVeg == 2)
+                if (pullWeeds == 2)
+                    output ("You are sweet corn.");
+    } else if (spicyFood == 2) {
+        if (favoriteSeason == 3)
+            output ("You are multi-colored mums.");
+    } else if (spicyFood == 2) {
+        if (favoriteSeason == 4)
+            output ("You are a pine tree.");
+    }
 }
+    
+    
 
 function reset() {
     let o = document.getElementById("output");
