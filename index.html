@@ -1,0 +1,74 @@
+<html>
+
+<!--
+    Please be sure to:
+        1. Edit any text surrounded by ### (and delete the ###)
+        2. Delete all of my instructional comments
+        3. Edit the main.js file as well as this file!
+
+    You do not need to write your own comments in this file this week, but you do need to write comments in the main.js file. More instructions can be found there!
+-->
+
+<head>
+    <title>Brian Belko Homework 02</title>
+</head>
+
+<body>
+    <div id="input">
+        <!--
+            Create your "inputs" here, following the example. Please do not add CSS for this assignment. Only use HTML tags and JavaScript as detailed in the instructions.
+
+            Your form must provide AT LEAST 5 different questions for the user to respond to. Your JavaScript must then analyze these answers using conditional logic.
+
+            This week you MAY use other form elements, if you wish. However, if you do so, you must make sure that they make sense and that they are used properly. For example, radio buttons should require that EXACTLY ONE option in a set be selected at any time, while checkboxes should allow for multiple selections.
+
+            Make your form look as "neat" as possible using the tags that you have learned in class during Week 1 and Week 2. You may additionally use other formatting tags (such as header tags) if you want to research and use them.
+
+            IMPORTANT REQUIREMENT: If you use tags or input types other than the ones shown in class (p, input types "text" and "select", div, label), above your first use of each one you need to provide an HTML comment explaining what the tag or type is used for (so that we know you understand it).
+
+            While you MAY use textfield input this week (as you did in Week 1), remember that free text entry is a lot more likely to have unexpected variations that you must account for. For example users will often accidentally type additional spaces at the start or end of their response. However, you could use some of the String functions that we looked at in Week 1 to fix these, if you want an extra challenge.
+
+            PLEASE NOTE: Doing anything beyond using dropdown menus via the "select" tag is ENTIRELY optional. We really want you to focus on conditional logic this week, and that is what you are primarily being graded on!
+
+            
+        -->
+        <p>What kind of garden plant are you? Fill out this brief survey to find out!</p>
+        <p><label for="spicyFood">Do you like spicy food?</label>
+            <select id="spicyFood">
+                <option value="1">Yes!</option>
+                <option value="2">No!</option>
+            </select></p>
+            <p><label for="favoriteSeason">What is your favorite season?</label>
+                <select id="favoriteSeason">
+                    <option value="1">Spring</option>
+                    <option value="2">Summer</option> <!-- note that this value still works as expected -->
+                    <option value="3">Fall</option> <!-- note that picking this value might not do what you expect -->
+                    <option value="4">Winter</option> <!-- note that picking this value might not do what you expect -->
+                </select></p>
+        <p><label for="age">Are you 65 years old or older?</label>
+            <select id="age">
+                <option value="1">Yes</option>
+                <option value="2">No</option>
+            </select></p>
+        <p><label for="fruitOrVeg">Do you prefer fruit or vegetables?</label>
+            <select id="fruitOrVeg">
+                <option value="1">Fruit</option>
+                <option value="2">Veggies</option>
+            </select></p>
+        <p><label for="pullWeeds">Do you like to pull weeds?</label>
+            <select id="pullWeeds">
+                <option value="1">Yes!</option>
+                <option value="2">No!</option>
+            </select></p>
+            <button id="action">Analyze Responses</button>
+    </div>
+    <div id="output" style="display:none">
+        <button id="reset">Start Over</button>
+    </div>
+    <hr />
+    <a href="main.js" target="_blank">View My JavaScript</a>
+</body>
+
+<script src="main.js"></script>
+
+</html>
