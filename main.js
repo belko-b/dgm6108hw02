@@ -39,7 +39,7 @@ function analyze() {
     output("Second form value: " + b); */
     
     
-   /* if (spicyFood == 1) {
+    /*if (spicyFood == 1) {
         output("You are a hot pepper plant.");
     }
     
@@ -66,9 +66,9 @@ function analyze() {
             if (fruitOrVeg == 2)
                 if (pullWeeds == 1)
                     output ("You are a dandelion.");
-    }
+    } */
     
-    if (spicyFood == 2){
+   /* if (spicyFood == 2){
         if (favoriteSeason == 2)
             if (fruitOrVeg == 2)
                 if (pullWeeds == 2)
@@ -84,35 +84,40 @@ function analyze() {
     if (spicyFood == 2) {
         if (favoriteSeason == 4)
             output ("You are a pine tree.");
-    } */
-    
+    } 
+    */
     if (spicyFood == 1) {
         output("You are a hot pepper plant.");
-    } else if (spicyFood == 2) {
-        if (favoriteSeason == 1)
-            if (age == 1)
-                output ("You are wisteria");
-    } else if (spicyFood == 2) {
-        if (favoriteSeason == 2)
-            if (fruitOrVeg == 1)
-                output("You are a peach tree.");
-    } else if (spicyFood == 2) {
-        if (favoriteSeason == 2)
-            if (fruitOrVeg == 2)
-                if (pullWeeds == 1)
-                    output ("You are a dandelion.");
-    } else if (spicyFood == 2) {
-        if (favoriteSeason == 2)
-            if (fruitOrVeg == 2)
-                if (pullWeeds == 2)
-                    output ("You are sweet corn.");
-    } else if (spicyFood == 2) {
-        if (favoriteSeason == 3)
-            output ("You are multi-colored mums.");
-    } else if (spicyFood == 2) {
-        if (favoriteSeason == 4)
-            output ("You are a pine tree.");
+    } else if (spicyFood == 2) { 
+    }   if (favoriteSeason == 1) {
+    }      if (age == 1) {
+            output ("You are wisteria");
     }
+      else if (spicyFood == 2) {
+    }    if (favoriteSeason == 2) {
+    }      if (fruitOrVeg == 1) {
+            output("You are a peach tree.");
+    }
+   /*   else if (spicyFood == 2) {
+    }   if (favoriteSeason == 2) {
+    }      if (fruitOrVeg == 2) {
+    }           if (pullWeeds == 1)
+                    output ("You are a dandelion.");
+    } 
+      else if (spicyFood == 2) {
+    }    if (favoriteSeason == 2) {
+    }       if (fruitOrVeg == 2) {
+    }           if (pullWeeds == 2) {
+                    output ("You are sweet corn.");
+    } 
+      else if (spicyFood == 2) {
+    }   if (favoriteSeason == 3) {
+            output ("You are multi-colored mums.");
+    } 
+      else if (spicyFood == 2) {
+    }    if (favoriteSeason == 4) {
+            output ("You are a pine tree.");
+    } */
 }
     
     
